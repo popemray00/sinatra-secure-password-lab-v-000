@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :password_digest
   end
   end
-  
+
   def down
     drop_table :users
   end
